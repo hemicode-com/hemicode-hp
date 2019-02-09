@@ -7,14 +7,14 @@ const GlobalStyle = createGlobalStyle`
     ${styledNormalize}
 
   h1 {
-    font-family: Kanit;
+    font-family: Kanit, sans-serif;
     font-size: 52px;
     cursor: default;
     user-select: none;
   }
   
   h2, a, p {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     cursor: default;
     user-select: none;
     
@@ -44,6 +44,7 @@ const ContainerMain = styled.main`
     width: 100%;
     height: 100%;
     position: relative;
+    opacity: 0.8
   }
 `;
 
@@ -121,7 +122,7 @@ const TextLink = styled.a`
 
 const TextDate = styled.p`
   color: #ddd9d8;
-  font-family: Kanit;
+  font-family: Kanit, sans-serif;
   font-size: 12px;
 `;
 
@@ -176,6 +177,6 @@ const App = () => {
             </Wrapper>
         </Fragment>
     );
-}
+};
 
 export default App;
