@@ -168,8 +168,8 @@ const App = () => {
                             <br/>
                             Quality within a stone{`'`}s throw.
                         </TextMission>
-                        <TextLink href="mailto:hello@hemicode.com">
-                            hello@hemicode.com
+                        <TextLink href="mailto:hemicode.services@gmail.com">
+                            hemicode.services@gmail.com
                         </TextLink>
                         <TextDate>&#169; {year}</TextDate>
                     </ContainerText>
