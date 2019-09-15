@@ -100,7 +100,7 @@ const TextLink = styled.a`
   margin-bottom: 25px;
   cursor: pointer;
   user-select: all;
-  width: 141px;
+  width: 198px;
 
   &:after {
     content: '';
@@ -110,7 +110,7 @@ const TextLink = styled.a`
     left: -4px;
     z-index: -1;
     height: 18px;
-    width: 141px;
+    width: 198px;
     transform: skew(-9deg, 0);
     box-shadow: 3px 3px 0px 0px #f33f3f;
   }
