@@ -100,17 +100,17 @@ const TextLink = styled.a`
   margin-bottom: 25px;
   cursor: pointer;
   user-select: all;
-  width: 198px;
+  width: 140px;
 
   &:after {
     content: '';
     position: absolute;
     background: #151515;
-    top: -1px;
+    top: -2px;
     left: -4px;
     z-index: -1;
-    height: 18px;
-    width: 198px;
+    height: 19px;
+    width: 140px;
     transform: skew(-9deg, 0);
     box-shadow: 3px 3px 0px 0px #f33f3f;
   }
@@ -168,8 +168,8 @@ const App = () => {
                             <br/>
                             Quality within a stone{`'`}s throw.
                         </TextMission>
-                        <TextLink href="mailto:hemicode.services@gmail.com">
-                            hemicode.services@gmail.com
+                        <TextLink href="mailto:hello@hemicode.com">
+                            hello@hemicode.com
                         </TextLink>
                         <TextDate>&#169; {year}</TextDate>
                     </ContainerText>
