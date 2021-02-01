@@ -162,9 +162,7 @@ const App = () => {
                     <ContainerText>
                         <TextTitle>HEMICODE</TextTitle>
                         <TextMission>
-                            Building web applications
-                            <br/>
-                            with cutting-edge technologies.
+                            Cutting-edge technologies.
                             <br/>
                             Quality within a stone{`'`}s throw.
                         </TextMission>
